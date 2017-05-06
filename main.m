@@ -19,9 +19,7 @@ e=0.0001;
 maxi=30;
 
 raizesJacobi = gaussJacobi(Ax,b,x0,e,maxi);
-%disp(raizesJacobi');
 raizesSeidel = gaussSeidel(Ax,b,x0,e,maxi);
-%disp(raizesSeidel');
 
 %Saida dos metodos
 fprintf('\t\t\tgaussJacobi \t\t- \t\tgaussSeidel\n');
